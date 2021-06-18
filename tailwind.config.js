@@ -6,11 +6,9 @@ module.exports = {
       8: "128px",
     },
     boxShadow: {
-      upper: "0 1px rgba(0, 0, 0, 0.25)",
+      upper: "0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);",
     },
-    backgroundPosition: {
-      rightbottom: "100% -10%",
-    },
+
     color: {
       secondary: "#000057",
     },
@@ -20,9 +18,19 @@ module.exports = {
           "url('https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png')",
       }),
     },
+    backgroundPosition: {
+      "right-bottom": "50% 120%",
+    },
+
+    backgroundSize: {
+      "auto-100%": "auto 100%",
+      "43-rem": "43rem",
+    },
   },
   variants: {
-    extend: {},
+    extend: {
+      borderRadius: ["hover", "focus"],
+    },
   },
   plugins: [],
 };
