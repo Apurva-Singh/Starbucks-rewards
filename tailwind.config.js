@@ -4,9 +4,13 @@ module.exports = {
   theme: {
     maxWidth: {
       8: "128px",
+      80: "80%",
+      60: "60%",
+      40: "40%",
     },
     boxShadow: {
       upper: "0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);",
+      none: " 0px 0px 0px white;",
     },
 
     color: {
