@@ -8,6 +8,10 @@ module.exports = {
       60: "60%",
       40: "40%",
     },
+    minWidth: {
+      77: "77%",
+      69: "69%",
+    },
     boxShadow: {
       upper: "0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);",
       none: " 0px 0px 0px white;",
@@ -18,8 +22,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: (theme) => ({
-        "hero-star":
-          "url('https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png')",
+        "hero-star": "url('./img/hero.png')",
       }),
     },
     backgroundPosition: {
